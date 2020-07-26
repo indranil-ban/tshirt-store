@@ -1,0 +1,59 @@
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 98.7%;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+body {
+  height: inherit;
+  background: #343a40;
+}
+footer {
+  position: absolute;
+  /* position: sticky; */
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+.bot {
+  bottom: 0px;
+  text-align: center;
+}
+.indra {
+  height: inherit;
+}
+#root {
+  height: inherit;
+}
+.indre {
+  position: sticky;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  
+}
+.indraq {
+  height: inherit;
+  /* position: absolute;
+  bottom: 156.4px;
+  top: 42px; */
+}
+@media screen and (max-width: 648px){
+  footer {
+    position: sticky;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+}
